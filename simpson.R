@@ -19,7 +19,6 @@ mu_x2 <- 1;
 x2 <- rnorm(n, mu_x2 - 2*x1, sigma_x2);
 
 sigma_y <- 0.5;
-mu_y <- b1*mu_x1 + b2*mu_x2;
 y <- rnorm(n, x1 + x2, sigma_y);
 
 ####
